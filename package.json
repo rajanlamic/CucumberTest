@@ -1,0 +1,24 @@
+{
+  "name": "cucumbertest",
+  "version": "1.0.0",
+  "description": "cucumber test",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajanlamic/CucumberTest.git"
+  },
+  "author": "Rajan Lamichhane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajanlamic/CucumberTest/issues"
+  },
+  "homepage": "https://github.com/rajanlamic/CucumberTest#readme",
+  "dependencies": {
+    "chromedriver": "^2.30.1",
+    "cucumber": "^2.3.1",
+    "selenium-webdriver": "^3.4.0"
+  }
+}
